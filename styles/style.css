@@ -103,7 +103,6 @@
   font-weight: 785; /* Фоллбэк */
   padding: 4px 10px;
   
-
   border: 2px solid var(--color);
   border-bottom:none;
 }
@@ -376,8 +375,6 @@
   box-shadow: 2px 2px 0 0px var(--color);
   transition: box-shadow 0.3s ease;
 }
-
-
 
 @media (width > 375px) {
   :root {
