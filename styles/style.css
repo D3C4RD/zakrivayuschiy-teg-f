@@ -232,11 +232,9 @@
   font-size: 14px;
   line-height: 90%;
   font-weight: 400;
-  color: var(--bg-color); 
+  color: var(--bg-color);
   mix-blend-mode: difference;
-
   z-index: 10;
-  
 }
 
 .main__button {
