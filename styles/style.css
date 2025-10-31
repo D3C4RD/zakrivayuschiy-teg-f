@@ -92,8 +92,6 @@
   display: flex;
   flex-direction: column;
   background-color: var(--bg-color);
-
-  
   margin-block-end: 51px;
 }
 
@@ -157,7 +155,6 @@
   opacity: 0.5;
   text-shadow: 0 var(--label-color), 0 1px var(--label-color), 0 -1px var(--label-color), 1px 0 var(--label-color);
   text-transform: uppercase;
-
   position: absolute;
   top: 25px;
   right: 25px;
@@ -239,6 +236,7 @@
   mix-blend-mode: difference;
 
   z-index: 10;
+  
 }
 
 .main__button {
