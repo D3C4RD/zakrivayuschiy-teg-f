@@ -43,8 +43,8 @@
     #1a1a1a 100%  
   );
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
-
+  background-size: cover;
+  background-attachment: fixed;
   background-color: var(--bg-color);
 }
 
@@ -97,8 +97,8 @@
 
 .card__title {
   font-size: 18px;
-  font-variation-settings: 'wght' 785;
-  font-weight: 785; /* Фоллбэк */
+  font-variation-settings: 'wght' 715;
+  font-weight: 715; /* Фоллбэк */
   padding: 4px 10px;
   
   border: 2px solid var(--color);
@@ -150,7 +150,6 @@
   font-size: 14px;
   font-family: var(--accent-font), sans-serif;
   font-weight: 400;
-  -webkit-text-stroke: 1px var(--label-color);
   mix-blend-mode: hard-light;
   opacity: 0.5;
   text-shadow: 0 var(--label-color), 0 1px var(--label-color), 0 -1px var(--label-color), 1px 0 var(--label-color);
