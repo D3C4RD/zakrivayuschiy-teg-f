@@ -10,10 +10,10 @@
 
 */
 
-@supports (-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff) {
-  .card__image-label {
-    text-stroke: 1px var(--stroke-color);
-    -webkit-text-stroke: 1px var(--stroke-color);
+@supports (-webkit-text-stroke: 1px var(--label-color)) or (text-stroke: 1px var(--label-color)) {
+  .card__label {
+    text-stroke: 1px var(--label-color);
+    -webkit-text-stroke: 1px var(--label-color);
     text-shadow: none;
   }
 }
